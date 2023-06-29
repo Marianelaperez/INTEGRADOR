@@ -1,0 +1,235 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comparador de precios</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+  </head>
+  <header class="header">
+    <img src="./img/LOGO-removebg-preview.png" alt="logo" width="300" />
+    <nav class="navbar">
+      <!--usuario-->
+      <div id="usuario">
+        <label for="icon-menu"><i class="fa-solid fa-user"></i></label>
+        <input type="checkbox" id="icon-menu">
+        <ul class="usuario-menu">
+          <li> <a href="#">Acceso usuarios</a>
+            <ul class="usuario-link">
+              <li><a href="login.html">Iniciar sesión</a></li>
+              <li><a href="registro.html">Registrarme</a></li>
+            </ul>  
+        </ul> 
+      </div>
+      <!-- menu -->
+      <label for="toggle-menu" class="bars-menu"
+        ><i class="fa-solid fa-bars"></i>
+      </label>
+      <input type="checkbox" id="toggle-menu" />
+      <ul class="navbar-list">
+        <li><a href="#hero" class="navbar-link">Home</a></li>
+        <li><a href="#productos__todos" class="navbar-link">Productos</a></li>
+        <li><a href="#info" class="navbar-link">Nosotros</a></li>
+        <li><a href="#contacto" class="navbar-link">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br /><br /><br /><br />
+  <body>
+    <main>
+      <section id="hero">
+        <div class="hero-info">
+          <label for="busqueda"> <h2>Compará las mejores ofertas de miles de tiendas online desde una
+            sola página!</h2></label> <br> <br>
+          <input type="search" id="busqueda" placeholder="Hogar, jardín, accesorios..." class="busqueda">
+          <br> <br>
+          <input type="submit" value="Buscar" class="button">
+        </div>
+      </section>
+    </main>
+    <!--ABOUT US-->
+    <main>
+      <section id="info"></section>
+      <div class="description"><h2>Comparador de precios Argentina</h2>
+        <p>Somos una página dedicada a reunir los mejores descuentos y promos de
+          más de 10.000 mil tiendas nacionales!</p></div>
+      <div class="info-cards-container">
+        <div class="info-card">
+          <p><i class="fa-solid fa-magnifying-glass-dollar"></i></p>
+          <h3>Buscá</h3>
+          <p>Te damos la posibilidad de mirar los precios de miles de tiendas online nacionales.</p>
+        </div>
+        <div class="info-card">
+          <p><i class="fa-solid fa-comments-dollar"></i></p>
+          <h3>Compará</h3>
+          <p>
+            Elegí el mejor precio de entre todas las tiendas disponibles utilizando nuestro ranking de precios.  
+          </p>
+        </div>
+        <div class="info-card">
+          <p><i class="fa-sharp fa-solid fa-cart-shopping"></i></p>
+          <h3>Comprá</h3>
+          <p>
+            Detectá oprtunidades de manera fácil y rapida. Utilizá nuestras notificaciones para enterarte el mejor precio actual. 
+          </p>
+        </div>
+      </div
+    </main>
+    <!--PRODUCTOS-->
+    <main>
+      <section id="productos__todos">
+        <div class="productos_title"><h2>Productos más buscados</h2></div>
+        <div class="productos_tipos">
+          <a href="#">TODOS</a>
+          <a href="#">ELECTRÓNICA</a>
+          <a href="#">HOGAR</a>
+          <a href="#">ROPA</a>
+          <a href="#">ACCESORIOS</a>
+      </div>
+      <div class="productos_cards">
+        <div class="elemento_cards">
+            <img src="./img/750_750-KHDB43-7_1.jpg" alt="heladera">
+            <div class="card_top">
+                <h2>Heladera con Freezer 413 Lts - KOH-I-NOOR</h2>
+            </div>
+            <div class="card_bottom">
+                <span>$410000</span>
+                <button class="button">Comprar</button>
+            </div>
+        </div>
+
+        <div class="elemento_cards">
+          <img src="./img/aire acond.webp" alt="heladera">
+          <div class="card_top">
+              <h2>Aire acondicionado 12000 BTU Wi-Fi muro N3ASM-12MDS - KENDAL</h2>
+          </div>
+          <div class="card_bottom">
+              <span>$312000</span>
+              <button class="button">Comprar</button>
+          </div>
+        </div>
+
+        <div class="elemento_cards">
+          <img src="./img/TV.jpg">
+          <div class="card_top">
+              <h2>LG Ultra HD Smart TV 50'' - LG</h2>
+          </div>
+          <div class="card_bottom">
+              <span>$172000</span>
+              <button class="button">Comprar</button>
+          </div>
+        </div>
+
+        <div class="elemento_cards">
+          <img src="./img/samsung-telefono-celular-libre-sm-m135mlb-m13-blue.jpg">
+          <div class="card_top">
+              <h2>TELEFONO CELULAR LIBRE SM-M135MLB M13 BLUE - SAMSUNG </h2>
+          </div>
+          <div class="card_bottom">
+              <span>$90249.00</span>
+              <button class="button">Comprar</button>
+          </div>
+        </div>
+
+        <div class="elemento_cards">
+          <img src="./img/BICI.webp">
+          <div class="card_top">
+              <h2>BICICLETA 5 PRO / 16295 - SIAMBRETTA </h2>
+          </div>
+          <div class="card_bottom">
+              <span>$70489.00</span>
+              <button class="button">Comprar</button>
+          </div>
+        </div>
+
+
+        <div class="elemento_cards">
+          <img src="./img/SOPORTE TV.jpg">
+          <div class="card_top">
+              <h2>SOPORTE PARA LED ESF3000 - EURO SOUND</h2>
+          </div>
+          <div class="card_bottom">
+              <span>$7499.00</span>
+              <button class="button">Comprar</button>
+          </div>
+        </div>
+
+        <div class="elemento_cards">
+          <img src="./img/MOUSE.jpg">
+          <div class="card_top">
+              <h2>MOUSE OPTICO NGM-418 - NOGANET</h2>
+          </div>
+          <div class="card_bottom">
+              <span>$2399.00</span>
+              <button class="button">Comprar</button>
+          </div>
+        </div>
+
+        <div class="elemento_cards">
+          <img src="./img/PC.webp">
+          <div class="card_top">
+              <h2>ALL IN ONE ASPIRE C22-1700 - ACER </h2>
+          </div>
+          <div class="card_bottom">
+              <span>$307000</span>
+              <button class="button">Comprar</button>
+          </div>
+        </div>
+       </div> 
+       <br> <br><br>
+      </section>
+    </main>
+    <!--CONTACTO-->
+    <main>
+      <section id="contacto">
+        <div class="info-contacto-container">
+          <h2>Contacto</h2>
+          <div class="contact-info">
+            <p><br><i class="fa-solid fa-location-dot"></i>
+            Florida 5489, Avellaneda, Argentina.
+            </p>
+            <br /><br />
+            <p>
+              <i class="fa-solid fa-square-phone"></i> +54
+              342584697
+            </p>
+            <br /><br />
+            <p>
+              <i class="fa-solid fa-square-envelope"></i>
+              agentina@comparaprecios.com.ar
+            </p>
+          </div>
+        </div>
+        <div class="info_mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26253.88694782747!2d-58.40429274840452!3d-34.66137290185724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3335230bd052b%3A0x9d632a18eea90a31!2sAvellaneda%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1687745467616!5m2!1ses-419!2sar" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="footer">
+        <div class="redes_icon">
+          <br>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <hr>
+        </div>
+        <div class="icono_footer"><a href="#"><i class="fa-solid fa-tag"></i></a></div>
+      </section>
+      <div class="terms_footer">
+        <a href="#">Terminos y condiciones </a>
+        <br>
+        <a href="#">Politicas de privacidad</a>
+    </div>
+    </footer>
+  </body>
+</html>
