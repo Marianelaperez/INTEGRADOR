@@ -31,8 +31,10 @@ body {
 .navbar ul {
   list-style-type: none;
   display: flex;
+  align-items: center;
   gap: 100px;
 }
+
 .navbar {
   display: flex;
 }
@@ -46,6 +48,10 @@ body {
 .navbar-link {
   text-decoration: none;
   color: black;
+}
+.navbar-list a:hover {
+  background-color: grey;
+  padding: 10px;
 }
 @media (max-width: 576px) {
   .navbar ul {
@@ -252,20 +258,20 @@ body {
   width: 100%;
 }
 .productos_title {
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-name: slidein;
   animation-iteration-count: unset;
   animation-direction: alternate;
 }
 @keyframes slidein {
   from {
-    margin-left: 100%;
+    margin-right: 70%;
     width: 300%;
   }
 
   to {
-    margin-left: 70%;
-    width: 100%;
+    margin-left: 23.5%;
+    width: 50%;
   }
 }
 .productos_tipos {
